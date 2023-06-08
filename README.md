@@ -1,4 +1,4 @@
-# HandTracker
+# HandTracker - DOWNLOAD Computer Vision Mouse.zip | Main code = cvmouse.py | Old code = better handmouse.py
 
 Uses OPENCV-2 and mediapipe to track your hand position relative to camera, and convert into mouse positions.
 
