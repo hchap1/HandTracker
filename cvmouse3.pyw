@@ -44,6 +44,7 @@ lvp = -1
 lhp = -1
 left_pinched = False
 scroll_counter = 0
+#Taha didn't make this
 
 #Constants:
 smoothing = 5
