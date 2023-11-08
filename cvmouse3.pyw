@@ -44,7 +44,6 @@ lvp = -1
 lhp = -1
 left_pinched = False
 scroll_counter = 0
-#Taha didn't make this
 
 #Constants:
 smoothing = 5
@@ -76,7 +75,7 @@ while not keyboard.is_pressed("f9"):
                     distance = math.sqrt((fingertip[0]/sensitivity-thumb[0]/sensitivity)**2 + (fingertip[1]/sensitivity-thumb[1]/sensitivity)**2)
                     distance2 = math.sqrt((pinkytip[0]/sensitivity-thumb[0]/sensitivity)**2 + (pinkytip[1]/sensitivity-thumb[1]/sensitivity)**2)
                     distance3 = math.sqrt((middletip[0]/sensitivity-thumb[0]/sensitivity)**2 + (middletip[1]/sensitivity-thumb[1]/sensitivity)**2)
-                    #Taha didn't make this
+                    
                 if distance <= click_thresh:
                     l_count += 1
                     if l_count >= l_threshold and can_l:
